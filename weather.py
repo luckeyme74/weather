@@ -15,7 +15,7 @@ def ave_temp(year):
     for temp in year:
         total += year[temp]
     ave = total / len(weather)
-    print("The average yearly temperature in Cairo, Egypt is " + str(ave))
+    print("The average yearly temperature in Cairo, Egypt is " + str(ave) + " degrees F!")
 
 # create a function that uses a new dictionary that compares the global average variable
 # with each monthly average, months with temps higher than average will be added to the
